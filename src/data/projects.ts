@@ -13,7 +13,7 @@ export const projects = [
     ],
     technologies: ['Next js', 'React', 'Firebase', 'Stripe', 'Tailwind CSS'],
     category: 'Full-Stack',
-    Live: 'https://captioncraftt.com',
+    Live: '#',
     tags: ['AI', 'Real-time', 'Payment Processing', 'Full-Stack'],
   },
   {
@@ -30,8 +30,8 @@ export const projects = [
     ],
     technologies: ['React', 'TypeScript', 'Firebase', 'Shadcn UI'],
     category: 'Frontend',
-    github: 'https://github.com/mkhaque1',
-    demo: 'quick-split-together.vercel.app',
+    github: '#',
+    demo: '#',
     tags: ['Productivity', 'Collaboration', 'Real-time'],
   },
   {
@@ -49,7 +49,7 @@ export const projects = [
     technologies: ['React', 'D3.js', 'OpenWeather API', 'Tailwind CSS'],
     category: 'Frontend',
     github: 'https://github.com',
-    demo: 'https://demo.com',
+    demo: '#',
     tags: ['Weather', 'API Integration', 'Data Visualization'],
   },
   {
@@ -63,8 +63,8 @@ export const projects = [
     images: ['/images/pyonet_dashboard.png', '/images/pyonet_home.png'],
     technologies: ['Python', 'React', 'Next js', 'Shadcn UI', 'Tailwind CSS'],
     category: 'Full-Stack',
-    github: 'https://github.com/mkhaque1/pyonet-next',
-    demo: 'https://pyonet-next.vercel.app/',
+    github: '#',
+    demo: '#',
     tags: ['Agency', 'Portfolio', 'Automation', 'Analytics'],
   },
   {
@@ -78,8 +78,8 @@ export const projects = [
     images: ['/images/saas_landing.png'],
     technologies: ['React', 'Framer', 'Typescript', 'taiwlwind CSS'],
     category: 'Frontend',
-    github: 'https://github.com/mkhaque1/saas-landing-01',
-    demo: 'https://saas-landing-kappa.vercel.app/',
+    github: '#',
+    demo: '#',
     tags: ['Saas', 'Landing Page', 'React', 'Marketing'],
   },
   {
@@ -93,7 +93,7 @@ export const projects = [
     images: ['/images/agency_portfolio.png'],
     technologies: ['React', 'Framer Motion', 'Tailwind CSS', 'Netlify'],
     category: 'Frontend',
-    Live: 'https://www.pyonet.com/',
+    Live: '#',
     tags: ['Portfolio', 'Animation', 'Responsive'],
   },
   {
@@ -107,8 +107,8 @@ export const projects = [
     images: ['/images/movie_api_project.png'],
     technologies: ['React', 'API', 'Database', 'tailwind CSS'],
     category: 'Full-Stack',
-    github: 'https://github.com/mkhaque1/api-project-movie-app',
-    demo: 'https://api-project-movie-app.vercel.app/',
+    github: '#',
+    demo: '#',
     tags: ['Api', 'Movie', 'Movie Database'],
   },
   {
@@ -122,8 +122,8 @@ export const projects = [
     images: ['/images/app_landing_page.png'],
     technologies: ['React', 'Framer Motion', 'Tailwind CSS', 'Netlify'],
     category: 'Frontend',
-    github: 'https://github.com/mkhaque1/iphone-3d-website-developing',
-    demo: 'https://react-3d-website-threejs.vercel.app/',
+    github: '#',
+    demo: '#',
     tags: ['3d', 'Animation', 'Responsive', 'Landing Page'],
   },
 ];
