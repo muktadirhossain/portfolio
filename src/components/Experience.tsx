@@ -1,75 +1,65 @@
-'use client';
+"use client";
 
-import React from 'react';
-import { motion, Variants } from 'motion/react';
-import { Calendar, MapPin, Building } from 'lucide-react';
+import React from "react";
+import { motion, Variants } from "motion/react";
+import { Calendar, MapPin, Building } from "lucide-react";
 
 const Experience = () => {
   const experiences = [
     {
-      title: 'Frontend UI / UX Developer',
-      company: 'Contabo',
-      location: 'Remote (Germany)',
-      period: '2024 - Present',
+      title: "Amazon Virtual Assistant",
+      company: "MD Infotech",
+      location: "Rajshahi,bangladesh",
+      period: "Sep 2021 - Nov 2022",
       description: [
-        'Component Development: Designing and implementing reusable components for the frontend to streamline development and maintain consistency across projects.',
-        'Headless CMS Integration: Working with Payload, a headless CMS, to manage and deliver content effectively, ensuring seamless integration with our web applications.',
-        'UI/UX Improvements: Creating and refining mockups to transition from outdated UI designs to modern, user-centric interfaces, enhancing overall user experience.',
+        "Managed and operated client Amazon and Walmart stores, ensuring smooth purchase and sales operations.",
+        "Communicated directly with clients to understand their business needs and execute daily store tasks efficiently.",
+        "Maintained accurate records of sales and inventory, and provided reports to ensure stock availability and performance tracking.",
       ],
       technologies: [
-        'Astro',
-        'TypeScript',
-        'Next.js',
-        'GraphQL',
-        'Payload CMS',
+        "Amazon Seller Central",
+        "Walmart Seller Center",
+        "Excel",
+        "Inventory Management",
       ],
-      color: 'bg-purple-500',
+      color: "bg-yellow-500",
     },
     {
-      title: 'Web Designer',
-      company: 'Stellen-kombi GmbH',
-      location: 'Esen, Germany',
-      period: '2023 - 2024',
+      title: "Assistant Software Developer",
+      company: "rajIT Solutions Ltd.",
+      location: "Rajshahi, Bangladesh",
+      period: "2023 - 2024",
       description: [
-        'Developed and maintained multiple client-facing web applications',
-        'Improved application performance by 60% through code optimization and lazy loading',
-        'Integrated RESTful APIs and implemented real-time features using WebSockets',
-        'Collaborated with cross-functional teams in an Agile environment',
+        "Component Development: Designing and implementing reusable components for the frontend to streamline development and maintain consistency across projects.",
+        "Headless CMS Integration: Working with Payload, a headless CMS, to manage and deliver content effectively, ensuring seamless integration with our web applications.",
+        "UI/UX Improvements: Creating and refining mockups to transition from outdated UI designs to modern, user-centric interfaces, enhancing overall user experience.",
       ],
-      technologies: ['React', 'JavaScript', 'Tailwind CSS'],
-      color: 'bg-blue-500',
+      technologies: ["React", "React-native", "TypeScript", "Next.js"],
+      color: "bg-purple-500",
     },
     {
-      title: 'Junior Web Developer',
-      company: 'Rheinduett GmbH',
-      location: 'Köln, Germany',
-      period: '2012 - 2023',
+      title: "Programmer",
+      company: "rajIT Solutions Ltd.",
+      location: "Rajshahi, Bangladesh",
+      period: "Feb 2024 - Present",
       description: [
-        'Built responsive websites for various clients using modern web technologies',
-        'Worked closely with designers to implement pixel-perfect UI components',
-        'Gained experience in version control, testing, and deployment processes',
-        'Participated in client meetings and provided technical recommendations',
+        "Developed and optimized scalable React Native apps with high performance and cross-platform compatibility.",
+        "Worked closely with the design team to refine UI/UX in Figma, enhance push notifications, and implement user-friendly interfaces.",
+        "Collaborated with the backend team to integrate APIs and improved state management using Redux.",
       ],
-      technologies: ['HTML', 'CSS', 'JavaScript', 'WordPress', 'React.js'],
-      color: 'bg-green-500',
-    },
-    {
-      title: 'Web Development Intern',
-      company: 'Braintrust',
-      location: 'Bremen, Germany',
-      period: '2022',
-      description: [
-        'Assisted in developing company website and internal tools',
-        'Gained hands-on experience with modern web development workflows',
-        'Learned about responsive design principles and cross-browser compatibility',
-        'Contributed to open-source projects and company technical blog',
+      technologies: [
+        "React Native",
+        "TypeScript",
+        "Redux",
+        "Figma",
+        "Next.js",
+        "MERN Stack",
       ],
-      technologies: ['HTML', 'CSS', 'JavaScript', 'Git', 'TypeScript'],
-      color: 'bg-pink-500',
+      color: "bg-green-500",
     },
   ];
 
-  const containerVariants : Variants = {
+  const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -80,7 +70,7 @@ const Experience = () => {
     },
   };
 
-  const itemVariants : Variants = {
+  const itemVariants: Variants = {
     hidden: { x: -50, opacity: 0 },
     visible: {
       x: 0,
@@ -127,7 +117,7 @@ const Experience = () => {
               <motion.div
                 key={index}
                 className={`relative flex items-center mb-12 ${
-                  index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
+                  index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
                 }`}
                 variants={itemVariants}
                 initial="hidden"
@@ -140,7 +130,7 @@ const Experience = () => {
                 {/* Content Card */}
                 <motion.div
                   className={`w-full md:w-5/12 ml-16 md:ml-0 ${
-                    index % 2 === 0 ? 'md:mr-8' : 'md:ml-8'
+                    index % 2 === 0 ? "md:mr-8" : "md:ml-8"
                   }`}
                   whileHover={{ scale: 1.02 }}
                   transition={{ duration: 0.3 }}
