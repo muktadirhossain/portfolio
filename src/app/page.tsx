@@ -10,6 +10,7 @@ import Projects from "@/components/Projects";
 import { ThemeProvider } from "@/components/ThemeProvider";
 
 export default function Home() {
+  console.log("Server started 🚀🚀🚀")
   return (
     <ThemeProvider>
       <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300">
