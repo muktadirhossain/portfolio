@@ -95,7 +95,7 @@ const Hero = () => {
               initial="hidden"
               animate="visible"
             >
-              Production – I Do It Al
+              Production – I Do It All
             </motion.span>
           </motion.h1>
 
